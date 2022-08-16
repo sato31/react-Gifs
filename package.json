@@ -1,4 +1,5 @@
 {
+  "homepage":"https://sato31.github.io/react-Gifs",
   "name": "searchgifs",
   "private": true,
   "version": "0.0.0",
@@ -7,17 +8,20 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "standard --fix"
+    "lint": "standard --fix",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "0.27.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "wouter": "^2.8.0-alpha.2"
   },
   "devDependencies": {
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
     "@vitejs/plugin-react": "2.0.0",
+    "gh-pages": "^4.0.0",
     "standard": "17.0.0",
     "vite": "3.0.0"
   },

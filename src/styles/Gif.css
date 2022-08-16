@@ -1,0 +1,15 @@
+.gif {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.gif img {
+    object-fit: contain;
+    padding: 10px;
+}

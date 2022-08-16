@@ -1,0 +1,13 @@
+.app{
+  text-align: center;
+}
+
+.app-content{
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  color: #09f;
+  text-decoration: none;
+}
